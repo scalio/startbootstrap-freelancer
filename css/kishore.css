@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 p {
@@ -22,7 +23,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #6DB5B8;
 }
 
 h1,
@@ -32,8 +33,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 hr.star-light,
@@ -63,7 +63,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #6DB5B8;
 }
 
 hr.star-primary {
@@ -82,7 +82,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #6DB5B8;
 }
 
 header .container {
@@ -98,14 +98,12 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
-    font-weight: 700;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
-    font-weight: 300;
 }
 
 @media(min-width:768px) {
@@ -149,8 +147,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .navbar a:focus {
@@ -181,7 +178,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #6DB5B8;
 }
 
 @media(max-width:767px) {
@@ -211,7 +208,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: rgba(109,181,184,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -265,7 +262,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #6DB5B8;
     background: #fff;
 }
 
@@ -318,7 +315,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #6DB5B8;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -448,3 +445,235 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+
+
+
+.bg-success {
+  background-color: #6db5b8;
+}
+a.bg-success:hover {
+  background-color: #4f9fa3;
+}
+
+samp {
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.table > tfoot > tr.success > th {
+  background-color: #6db5b8;
+}
+
+.has-success .input-group-addon {
+  background-color: #6db5b8;
+}
+
+.btn-success {
+  background-color: #6db5b8;
+  border-color: #6db5b8;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success.focus,
+.btn-success:active,
+.btn-success.active,
+.open > .dropdown-toggle.btn-success {
+  background-color: #4f9fa3;
+  border-color: #11866f;
+}
+
+.btn-success.disabled,
+.btn-success[disabled],
+fieldset[disabled] .btn-success,
+.btn-success.disabled:hover,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success:hover,
+.btn-success.disabled:focus,
+.btn-success[disabled]:focus,
+fieldset[disabled] .btn-success:focus,
+.btn-success.disabled.focus,
+.btn-success[disabled].focus,
+fieldset[disabled] .btn-success.focus,
+.btn-success.disabled:active,
+.btn-success[disabled]:active,
+fieldset[disabled] .btn-success:active,
+.btn-success.disabled.active,
+.btn-success[disabled].active,
+fieldset[disabled] .btn-success.active {
+  background-color: #6db5b8;
+  border-color: #6db5b8;
+}
+.btn-success .badge {
+  color: #6db5b8;
+}
+
+.btn-link {
+  color: #6db5b8;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+  color: #6db5b8;
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  border-color: #6db5b8;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #6db5b8;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #6db5b8;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #6db5b8;
+  }
+}
+
+.navbar-default .navbar-link:hover {
+  color: #6db5b8;
+}
+
+.navbar-default .btn-link:hover,
+.navbar-default .btn-link:focus {
+  color: #6db5b8;
+}
+
+.navbar-inverse {
+  background-color: #6db5b8;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-link:hover {
+  color: #6db5b8;
+}
+
+.navbar-default .btn-link:hover,
+.navbar-default .btn-link:focus {
+  color: #6db5b8;
+}
+
+.navbar-inverse {
+  background-color: #6db5b8;
+  border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #4f9fa3;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #4f9fa3;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+  background-color: #6db5b8;
+}
+
+.pager li > a,
+.pager li > span {
+  background-color: #6db5b8;
+}
+
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > a:focus,
+.pager .disabled > span {
+  background-color: #6db5b8;
+}
+
+.label-success {
+  background-color: #6db5b8;
+}
+.label-success[href]:hover,
+.label-success[href]:focus {
+  background-color: #4f9fa3;
+}
+
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: #6db5b8;
+}
+
+.alert-success {
+  background-color: #6db5b8;
+  border-color: #6db5b8;
+}
+
+.progress-bar-success {
+  background-color: #6db5b8;
+}
+
+.list-group-item-success {
+  background-color: #6db5b8;
+}
+
+.panel-success {
+  border-color: #6db5b8;
+}
+.panel-success > .panel-heading {
+  background-color: #6db5b8;
+  border-color: #6db5b8;
+}
+.panel-success > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #6db5b8;
+}
+.panel-success > .panel-heading .badge {
+  color: #6db5b8;
+}
+.panel-success > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #6db5b8;
+}
+
+.tooltip {
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.popover {
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navbar-inverse .badge {
+  color: #6db5b8;
+}
+
+.text-success,
+.text-success:hover {
+  color: #6db5b8;
+}
+
+.has-success .help-block,
+.has-success .control-label,
+.has-success .radio,
+.has-success .checkbox,
+.has-success .radio-inline,
+.has-success .checkbox-inline,
+.has-success .form-control-feedback {
+  color: #6db5b8;
+}
+.has-success .form-control,
+.has-success .form-control:focus {
+  border: 2px solid #6db5b8;
+}
+.has-success .input-group-addon {
+  border-color: #6db5b8;
+}
+
+a.list-group-item-success.active {
+  background-color: #6db5b8;
+}
+
